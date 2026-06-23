@@ -1,0 +1,57 @@
+@use "../../node_modules/bootstrap/scss/functions";
+
+@use "variables" as *;
+
+
+@use "../../node_modules/bootstrap/scss/bootstrap" with (
+
+$primary: $lt-green,
+$body-bg: $lt-dark,
+$body-color: $lt-white,
+
+$theme-colors: (
+
+    "primary": $lt-green,
+
+    "dark": $lt-dark,
+
+    "green":$lt-green,
+    "light-green":$lt-green-light,
+    "very-light-green": $lt-green-very-light,
+
+    "blue": $lt-blue,
+    "dark-blue": $lt-dark-blue,
+
+    "red": $lt-red,
+    "darkred": $lt-dark-red,
+
+    "pink": $lt-pink,
+
+    "purple": $lt-purple,
+
+    "yellow": $lt-yellow,
+
+    "gray-500": $lt-gray-500,
+    "dark-gray": $lt-dark-gray,
+    
+    "marble": $lt-marble
+
+)
+
+ 
+
+);
+
+@use "body";
+
+@use "navbar";
+
+@use "menu";
+
+@use "hero";
+
+@use "carousels";
+
+@use "sections";
+
+@use "footer";

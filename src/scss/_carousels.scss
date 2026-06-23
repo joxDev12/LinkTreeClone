@@ -1,0 +1,67 @@
+.carousel-item {
+    transition: transform 5s ease;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    max-height: 600px;
+    width: 100%;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.slider-hero {
+    max-height:600px;
+
+}
+
+.slider-card-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: max-content;
+    animation: sliderHero 20s linear infinite;
+}
+
+.slider-card-hero img {
+    width: 450px;
+}
+
+@keyframes sliderHero {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+
+/* carosello sezione testimonials */
+
+.slider-main {
+    overflow: hidden;
+}
+
+.slider-card{
+    display:flex;
+    gap: 16px;
+    animation: slider 20s linear infinite;
+}
+
+.slider-card img {
+    width: 250px;
+}
+
+@keyframes slider {
+    from { transform: translateX(0);}
+    to { transform: translateX(-50%);}
+}
+
+@media (min-width:920px) {
+    
+}
+

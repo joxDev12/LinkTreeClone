@@ -1,0 +1,27 @@
+.footer {
+    box-sizing: content-box;
+}
+
+.footer-man {
+    z-index: 0;
+    object-fit: cover;
+    max-width: 300px;
+    top: 100px;
+    left: 10px;
+    transform: rotate(20deg);
+
+}
+
+.footer-flower {
+    z-index: 0;
+    object-fit: cover;
+    max-width: 300px;
+    top: 200px;
+    left: 100px;
+    transform: rotate(50deg);
+}
+
+
+.hero-footer {
+    z-index: 10;
+}

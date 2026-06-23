@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+.hero {
+
+    height: fit-content;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-family: $font-hero;
+    font-weight: 999;
+}

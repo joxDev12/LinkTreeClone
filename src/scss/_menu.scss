@@ -1,0 +1,45 @@
+
+.menu-list-item {
+    display: inline;
+}
+
+.menu-list-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.collapse-menu {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 180px;
+}
+
+#collapseMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.collapse-menu-list {
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    width: 100%;
+    padding-right: 50px;
+}
+
+.collapse-menu-list-item {
+    padding: 12px 0px 25px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.collapse-menu-list-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}

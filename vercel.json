@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "node scripts/copy-assets.js",
   "outputDirectory": "src/dist",
   "installCommand": "npm install"
 }
